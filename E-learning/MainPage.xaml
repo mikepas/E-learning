@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Uid="tbWelcome" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DodgerBlue" FontSize="40">Welcome</TextBlock>
-    </Grid>
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Uid="tbWelcome" HorizontalAlignment="Center" Foreground="DodgerBlue" FontSize="40" Margin="0,40,0,0">Welcome</TextBlock>
+        <TextBlock x:Uid="tbWelcome" HorizontalAlignment="Center" FontSize="18" Margin="0,15,0,0">This is our project</TextBlock>
+    </StackPanel>
 </Page>
